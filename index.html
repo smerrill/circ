@@ -4,11 +4,11 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Circ : An IRC packaged chrome app" />
+    <meta name="description" content="CIRC : " />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Circ</title>
+    <title>CIRC</title>
   </head>
 
   <body>
@@ -18,8 +18,8 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/noahsug/circ">View on GitHub</a>
 
-          <h1 id="project_title">Circ</h1>
-          <h2 id="project_tagline">An IRC packaged chrome app</h2>
+          <h1 id="project_title">CIRC</h1>
+          <h2 id="project_tagline"></h2>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/noahsug/circ/zipball/master">Download this project as a .zip file</a>
@@ -31,44 +31,28 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <p>CIRC is an IRC client in the form of a packaged Chrome app. That means it acts like a native application and has access to low level APIs such as chrome.socket. Here are some of the key features of CIRC:</p>
+        <p>CIRC is an IRC client in the form of a packaged Chrome app. It uses chrome APIs to implement awesome features not found in other IRC clients:</p>
 
 <ul>
-<li>Connect directly to any IRC server (no proxy server needed!)</li>
+<li>Connect directly to any IRC server - no proxy server needed</li>
 <li>Remember your nick and what channels you were last in on any device</li>
 <li>Use the same IRC connection simultaneously on multiple devices (like Google talk)</li>
-<li>Scripting support</li>
+<li>Scripting that syncs across all devices</li>
 <li>Desktop notifications</li>
-</ul><h3>Issues</h3>
+</ul><p><img src="https://lh3.googleusercontent.com/xQTJtOJHiww_bGBOu5fdXUfHnn8KOFwGnB0toA6GvrR-Q98WevO8jcAhcY-e4SDhGc8JKKvm9A=s640-h400-e365" alt="CIRC screenshot"></p>
 
-<p>If you find a bug or have an idea for a new feature, please <a href="https://www.github.com/noahsug/circ/issues">file an issue</a>.</p>
+<p>Want to learn more? Check out our wiki: <a href="https://github.com/noahsug/circ/wiki">https://github.com/noahsug/circ/wiki</a></p>
 
-<h3>Development</h3>
+<h3>Running</h3>
 
-<p>Development on CIRC has only just began! Take a look at the <a href="https://www.github.com/noahsug/circ/wiki/changelog">changelog</a> to see what we've been working on with each version.</p>
-
-<p>If you're interested in the exciting features we have in store, check out our <a href="https://www.github.com/noahsug/circ/wiki/timeline">development timeline</a>.</p>
-
-<h3>Scripting</h3>
-
-<p>Scripts are written in JavaScript and loaded from a file on the user's computer.</p>
-
-<p>To load a script use the <code>/load</code> command, which will open a file prompt.</p>
-
-<p>View the <a href="https://www.github.com/noahsug/circ/wiki/Scripting">scripting docs</a>.</p>
-
-<h3>One identity</h3>
-
-<p>You can choose one of your devices to act as a server to which your other devices can connect. Connected devices use the IRC connection of the server device and activity is mirrored across each connected device. Whenever you install CIRC on a new device it will automatically connect to the server device. If the server is unreachable then the client use it's own connect as normal.</p>
-
-<p>To use the feature use the <code>/make-server</code> command on the device you wish to use as the server. That device will remain the server even after CIRC is closed. Use <code>/make-server</code> again on a different device to change servers. The devices connect to each other using TCP sockets, so port forwarding may be required.</p>
+<p>CIRC is not yet available on the Chrome Web Store, but it will be soon! In the meantime you can download the git repo and follow <a href="https://github.com/noahsug/circ#running">these steps</a> to install from the source code.</p>
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Circ maintained by <a href="https://github.com/noahsug">noahsug</a></p>
+        <p class="copyright">CIRC maintained by <a href="https://github.com/noahsug">noahsug</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
